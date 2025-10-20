@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="relative h-[400px] flex items-center justify-center overflow-hidden">
+      <section className="relative h-[300px] md:h-[400px] flex items-center justify-center overflow-hidden">
         <div 
           className="absolute inset-0 bg-cover bg-center"
           style={{ backgroundImage: `url(${factory})` }}
@@ -13,18 +13,18 @@ const About = () => {
         <div className="absolute inset-0 bg-gradient-to-r from-primary/90 to-primary/70" />
         
         <div className="relative z-10 container mx-auto px-4 text-center text-primary-foreground">
-          <h1 className="text-5xl md:text-6xl font-bold mb-4 animate-fade-in">About Us</h1>
-          <p className="text-xl text-primary-foreground/90 max-w-2xl mx-auto animate-fade-in">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-3 md:mb-4 animate-fade-in">About Us</h1>
+          <p className="text-base md:text-xl text-primary-foreground/90 max-w-2xl mx-auto px-4 animate-fade-in">
             Building trust through precision engineering since 2013
           </p>
         </div>
       </section>
 
       {/* Company Overview */}
-      <section className="py-16">
+      <section className="py-12 md:py-16">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-4xl font-bold mb-6 text-foreground">Our Story</h2>
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 md:mb-6 text-foreground">Our Story</h2>
             <div className="space-y-4 text-lg text-muted-foreground">
               <p>
                 Founded in 2013, Sujal Services & Solutions has established itself as a trusted name in the industrial bearings and mechanical components industry. What began as a small bearing supply business has grown into a comprehensive engineering solutions provider serving clients across the globe.
@@ -68,9 +68,9 @@ const About = () => {
       </section>
 
       {/* Core Strengths */}
-      <section className="py-16">
+      <section className="py-12 md:py-16">
         <div className="container mx-auto px-4">
-          <h2 className="text-4xl font-bold mb-12 text-center text-foreground">Core Strengths</h2>
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-8 md:mb-12 text-center text-foreground">Core Strengths</h2>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
             <div className="bg-card p-6 rounded-lg shadow-lg border border-border animate-fade-in">
@@ -125,9 +125,9 @@ const About = () => {
       </section>
 
       {/* Timeline */}
-      <section className="py-16 bg-muted">
+      <section className="py-12 md:py-16 bg-muted">
         <div className="container mx-auto px-4">
-          <h2 className="text-4xl font-bold mb-12 text-center text-foreground">Our Journey</h2>
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-8 md:mb-12 text-center text-foreground">Our Journey</h2>
           
           <div className="max-w-4xl mx-auto space-y-8">
             <div className="flex gap-4 animate-fade-in">

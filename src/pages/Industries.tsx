@@ -81,10 +81,10 @@ const Industries = () => {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-primary to-primary/80 text-primary-foreground py-16">
+      <section className="bg-gradient-to-r from-primary to-primary/80 text-primary-foreground py-12 md:py-16">
         <div className="container mx-auto px-4 text-center">
-          <h1 className="text-5xl font-bold mb-4 animate-fade-in">Industries We Serve</h1>
-          <p className="text-xl text-primary-foreground/90 max-w-2xl mx-auto animate-fade-in">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-3 md:mb-4 animate-fade-in">Industries We Serve</h1>
+          <p className="text-base md:text-xl text-primary-foreground/90 max-w-2xl mx-auto px-4 animate-fade-in">
             Specialized bearing solutions for diverse industrial sectors
           </p>
         </div>
@@ -130,30 +130,30 @@ const Industries = () => {
       </section>
 
       {/* Global Reach */}
-      <section className="py-16 bg-muted">
+      <section className="py-12 md:py-16 bg-muted">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
-            <h2 className="text-4xl font-bold mb-6 text-foreground">Global Industrial Presence</h2>
-            <p className="text-lg text-muted-foreground mb-8">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 md:mb-6 text-foreground">Global Industrial Presence</h2>
+            <p className="text-base md:text-lg text-muted-foreground mb-6 md:mb-8 px-4">
               Our bearing solutions power industries across 50+ countries, from manufacturing hubs in Asia to heavy engineering operations in Europe and mining facilities in Africa and Australia.
             </p>
             
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mb-12">
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8 mb-8 md:mb-12">
               <div className="animate-fade-in">
-                <div className="text-4xl font-bold text-primary mb-2">50+</div>
-                <div className="text-sm text-muted-foreground">Countries Served</div>
+                <div className="text-2xl sm:text-3xl md:text-4xl font-bold text-primary mb-1 md:mb-2">50+</div>
+                <div className="text-xs sm:text-sm text-muted-foreground">Countries Served</div>
               </div>
               <div className="animate-fade-in">
-                <div className="text-4xl font-bold text-primary mb-2">12</div>
-                <div className="text-sm text-muted-foreground">Industry Sectors</div>
+                <div className="text-2xl sm:text-3xl md:text-4xl font-bold text-primary mb-1 md:mb-2">12</div>
+                <div className="text-xs sm:text-sm text-muted-foreground">Industry Sectors</div>
               </div>
               <div className="animate-fade-in">
-                <div className="text-4xl font-bold text-primary mb-2">500+</div>
-                <div className="text-sm text-muted-foreground">Active Clients</div>
+                <div className="text-2xl sm:text-3xl md:text-4xl font-bold text-primary mb-1 md:mb-2">500+</div>
+                <div className="text-xs sm:text-sm text-muted-foreground">Active Clients</div>
               </div>
               <div className="animate-fade-in">
-                <div className="text-4xl font-bold text-primary mb-2">24/7</div>
-                <div className="text-sm text-muted-foreground">Support Available</div>
+                <div className="text-2xl sm:text-3xl md:text-4xl font-bold text-primary mb-1 md:mb-2">24/7</div>
+                <div className="text-xs sm:text-sm text-muted-foreground">Support Available</div>
               </div>
             </div>
 
@@ -185,10 +185,10 @@ const Industries = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 bg-primary text-primary-foreground">
+      <section className="py-12 md:py-16 bg-primary text-primary-foreground">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl font-bold mb-4">Industry-Specific Solutions</h2>
-          <p className="text-lg text-primary-foreground/90 mb-6 max-w-2xl mx-auto">
+          <h2 className="text-2xl sm:text-3xl font-bold mb-3 md:mb-4">Industry-Specific Solutions</h2>
+          <p className="text-base md:text-lg text-primary-foreground/90 mb-6 max-w-2xl mx-auto px-4">
             Our engineers understand the unique challenges of your industry. Let us help you find the perfect bearing solution.
           </p>
           <Button asChild size="lg" variant="secondary">

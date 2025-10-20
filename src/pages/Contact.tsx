@@ -34,10 +34,10 @@ const Contact = () => {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-primary to-primary/80 text-primary-foreground py-16">
+      <section className="bg-gradient-to-r from-primary to-primary/80 text-primary-foreground py-12 md:py-16">
         <div className="container mx-auto px-4 text-center">
-          <h1 className="text-5xl font-bold mb-4 animate-fade-in">Contact Us</h1>
-          <p className="text-xl text-primary-foreground/90 max-w-2xl mx-auto animate-fade-in">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-3 md:mb-4 animate-fade-in">Contact Us</h1>
+          <p className="text-base md:text-xl text-primary-foreground/90 max-w-2xl mx-auto px-4 animate-fade-in">
             Get in touch with our team for quotes, technical support, or inquiries
           </p>
         </div>
@@ -216,11 +216,11 @@ const Contact = () => {
       </section>
 
       {/* Map Section */}
-      <section className="py-16 bg-muted">
+      <section className="py-12 md:py-16 bg-muted">
         <div className="container mx-auto px-4">
-          <h2 className="text-4xl font-bold mb-8 text-center text-foreground">Visit Our Office</h2>
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-6 md:mb-8 text-center text-foreground">Visit Our Office</h2>
           <div className="max-w-5xl mx-auto">
-            <div className="bg-card rounded-lg shadow-lg overflow-hidden border border-border h-[450px]">
+            <div className="bg-card rounded-lg shadow-lg overflow-hidden border border-border h-[300px] md:h-[450px]">
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d241317.14571374244!2d72.74109853750706!3d19.082197833687463!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c6306644edc1%3A0x5da4ed8f8d648c69!2sMumbai%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1234567890123!5m2!1sen!2sin"
                 width="100%"

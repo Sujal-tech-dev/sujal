@@ -75,10 +75,10 @@ const Services = () => {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-primary to-primary/80 text-primary-foreground py-16">
+      <section className="bg-gradient-to-r from-primary to-primary/80 text-primary-foreground py-12 md:py-16">
         <div className="container mx-auto px-4 text-center">
-          <h1 className="text-5xl font-bold mb-4 animate-fade-in">Our Services</h1>
-          <p className="text-xl text-primary-foreground/90 max-w-2xl mx-auto animate-fade-in">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-3 md:mb-4 animate-fade-in">Our Services</h1>
+          <p className="text-base md:text-xl text-primary-foreground/90 max-w-2xl mx-auto px-4 animate-fade-in">
             Comprehensive support services for all your bearing needs
           </p>
         </div>
@@ -110,9 +110,9 @@ const Services = () => {
       </section>
 
       {/* Testimonials */}
-      <section className="py-16 bg-muted">
+      <section className="py-12 md:py-16 bg-muted">
         <div className="container mx-auto px-4">
-          <h2 className="text-4xl font-bold mb-12 text-center text-foreground">What Our Clients Say</h2>
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-8 md:mb-12 text-center text-foreground">What Our Clients Say</h2>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
             <div className="bg-card p-6 rounded-lg shadow-lg border border-border animate-fade-in">
@@ -164,10 +164,10 @@ const Services = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 bg-primary text-primary-foreground">
+      <section className="py-12 md:py-16 bg-primary text-primary-foreground">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl font-bold mb-4">Need Expert Assistance?</h2>
-          <p className="text-lg text-primary-foreground/90 mb-6 max-w-2xl mx-auto">
+          <h2 className="text-2xl sm:text-3xl font-bold mb-3 md:mb-4">Need Expert Assistance?</h2>
+          <p className="text-base md:text-lg text-primary-foreground/90 mb-6 max-w-2xl mx-auto px-4">
             Our technical team is ready to help you with bearing selection, maintenance, or any technical challenge.
           </p>
           <Button asChild size="lg" variant="secondary">
