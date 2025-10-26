@@ -178,7 +178,7 @@ const Home = () => {
             <Button asChild size="lg" variant="secondary" className="text-base md:text-lg">
               <Link to="/contact">Contact Us <ArrowRight className="ml-2" size={20} /></Link>
             </Button>
-            <Button asChild size="lg" variant="outline" className="text-base md:text-lg border-2 border-primary-foreground text-primary-foreground hover:bg-primary-foreground/10">
+            <Button asChild size="lg" variant="secondary" className="text-base md:text-lg">
               <Link to="/resources">Download Catalog</Link>
             </Button>
           </div>
