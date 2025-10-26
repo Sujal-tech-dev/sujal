@@ -2,8 +2,10 @@ import { Link } from "react-router-dom";
 import { Mail, Phone, MapPin, Linkedin, Facebook, Instagram, Youtube } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
+
 const Footer = () => {
-  return <footer className="bg-primary text-primary-foreground">
+  return (
+    <footer className="bg-primary text-primary-foreground">
       <div className="container mx-auto px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
           {/* Company Info */}
@@ -67,7 +69,11 @@ const Footer = () => {
               Subscribe to our newsletter for industry insights and updates.
             </p>
             <div className="flex gap-2">
-              <Input type="email" placeholder="Your email" className="bg-primary-foreground/10 border-primary-foreground/20 text-primary-foreground placeholder:text-primary-foreground/50" />
+              <Input 
+                type="email" 
+                placeholder="Your email" 
+                className="bg-primary-foreground/10 border-primary-foreground/20 text-primary-foreground placeholder:text-primary-foreground/50"
+              />
               <Button variant="secondary" size="sm">
                 Subscribe
               </Button>
@@ -80,11 +86,11 @@ const Footer = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-sm">
             <div className="flex items-center gap-2">
               <Phone size={18} className="text-primary-foreground/60" />
-              <span>+91 9322279696</span>
+              <span>+91 98765 43210</span>
             </div>
             <div className="flex items-center gap-2">
               <Mail size={18} className="text-primary-foreground/60" />
-              <span>cp.sujal@gmail.com</span>
+              <span>info@sujalservices.com</span>
             </div>
             <div className="flex items-center gap-2">
               <MapPin size={18} className="text-primary-foreground/60" />
@@ -99,10 +105,12 @@ const Footer = () => {
           <div className="flex gap-4 mt-4 md:mt-0">
             <a href="#" className="hover:text-primary-foreground transition-colors">Privacy Policy</a>
             <a href="#" className="hover:text-primary-foreground transition-colors">Terms of Service</a>
-            
+            <a href="#" className="hover:text-primary-foreground transition-colors">ISO 9001:2015 Certified</a>
           </div>
         </div>
       </div>
-    </footer>;
+    </footer>
+  );
 };
+
 export default Footer;
