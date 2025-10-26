@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import logoImage from "@/assets/sss-logo.png";
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -23,10 +24,12 @@ const Navigation = () => {
     <nav className="sticky top-0 z-50 bg-background/95 backdrop-blur-sm border-b border-border">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
-          <Link to="/" className="flex items-center space-x-2">
-            <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center">
-              <span className="text-primary-foreground font-bold text-xl">S</span>
-            </div>
+          <Link to="/" className="flex items-center space-x-3">
+            <img 
+              src={logoImage} 
+              alt="Sujal Services & Solutions Logo" 
+              className="w-12 h-12 object-contain"
+            />
             <div>
               <div className="font-bold text-lg leading-tight text-foreground">Sujal Services</div>
               <div className="text-xs text-muted-foreground">& Solutions</div>
