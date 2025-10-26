@@ -53,8 +53,8 @@ const Home = () => {
               <div className="text-xs sm:text-sm text-muted-foreground">Products Delivered</div>
             </div>
             <div className="text-center animate-fade-in">
-              <div className="text-2xl sm:text-3xl md:text-4xl font-bold text-primary mb-1 md:mb-2">50+</div>
-              <div className="text-xs sm:text-sm text-muted-foreground">Countries Served</div>
+              <div className="text-2xl sm:text-3xl md:text-4xl font-bold text-primary mb-1 md:mb-2">5+</div>
+              <div className="text-xs sm:text-sm text-muted-foreground">States Served</div>
             </div>
           </div>
         </div>
