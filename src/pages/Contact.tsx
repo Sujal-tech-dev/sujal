@@ -191,7 +191,7 @@ const Contact = () => {
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-6 md:mb-8 text-center text-foreground">Visit Our Office</h2>
           <div className="max-w-5xl mx-auto">
             <div className="bg-card rounded-lg shadow-lg overflow-hidden border border-border h-[300px] md:h-[450px]">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d241317.14571374244!2d72.74109853750706!3d19.082197833687463!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c6306644edc1%3A0x5da4ed8f8d648c69!2sMumbai%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1234567890123!5m2!1sen!2sin" width="100%" height="100%" style={{
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3773.9468936288845!2d72.83224837505858!3d18.951583782218897!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7ce3e4e3a9c15%3A0x5e9e9c9c9c9c9c9c!2sNagdevi%20Street%2C%20Masjid%20Bunder%2C%20Mumbai%2C%20Maharashtra%20400003!5e0!3m2!1sen!2sin!4v1234567890123!5m2!1sen!2sin" width="100%" height="100%" style={{
               border: 0
             }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" title="Sujal Services & Solutions Location" />
             </div>
