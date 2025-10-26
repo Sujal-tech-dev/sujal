@@ -4,13 +4,16 @@ import { ArrowRight, Shield, Clock, Award, Globe } from "lucide-react";
 import heroBearings from "@/assets/hero-bearings.jpg";
 import ballBearing from "@/assets/ball-bearing.png";
 import rollerBearing from "@/assets/roller-bearing.png";
+
 const Home = () => {
-  return <div className="min-h-screen">
+  return (
+    <div className="min-h-screen">
       {/* Hero Section */}
       <section className="relative h-[500px] md:h-[600px] flex items-center justify-center overflow-hidden">
-        <div className="absolute inset-0 bg-cover bg-center" style={{
-        backgroundImage: `url(${heroBearings})`
-      }} />
+        <div 
+          className="absolute inset-0 bg-cover bg-center"
+          style={{ backgroundImage: `url(${heroBearings})` }}
+        />
         <div className="absolute inset-0 bg-gradient-to-r from-primary/95 to-primary/70" />
         
         <div className="relative z-10 container mx-auto px-4 text-center text-primary-foreground">
@@ -26,7 +29,7 @@ const Home = () => {
                 Explore Products <ArrowRight className="ml-2" size={20} />
               </Link>
             </Button>
-            <Button asChild size="lg" variant="outline" className="text-base md:text-lg border-2 border-primary-foreground text-primary-foreground hover:bg-primary-foreground/10">
+            <Button asChild size="lg" variant="secondary" className="text-base md:text-lg">
               <Link to="/contact">Get a Quote</Link>
             </Button>
           </div>
@@ -50,8 +53,8 @@ const Home = () => {
               <div className="text-xs sm:text-sm text-muted-foreground">Products Delivered</div>
             </div>
             <div className="text-center animate-fade-in">
-              
-              
+              <div className="text-2xl sm:text-3xl md:text-4xl font-bold text-primary mb-1 md:mb-2">50+</div>
+              <div className="text-xs sm:text-sm text-muted-foreground">Countries Served</div>
             </div>
           </div>
         </div>
@@ -127,7 +130,8 @@ const Home = () => {
               </div>
               <h3 className="text-xl font-semibold mb-2 text-foreground">Quality Assurance</h3>
               <p className="text-muted-foreground">
-            </p>
+                ISO 9001:2015 certified products meeting international standards
+              </p>
             </div>
 
             <div className="text-center animate-fade-in">
@@ -155,7 +159,9 @@ const Home = () => {
                 <Globe className="text-primary-foreground" size={32} />
               </div>
               <h3 className="text-xl font-semibold mb-2 text-foreground">Global Reach</h3>
-              <p className="text-muted-foreground">Serving clients across 5 States with worldwide shipping</p>
+              <p className="text-muted-foreground">
+                Serving clients across 50+ countries with worldwide shipping
+              </p>
             </div>
           </div>
         </div>
@@ -178,6 +184,8 @@ const Home = () => {
           </div>
         </div>
       </section>
-    </div>;
+    </div>
+  );
 };
+
 export default Home;
