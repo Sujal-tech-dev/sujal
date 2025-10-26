@@ -125,9 +125,9 @@ const Contact = () => {
                     <div>
                       <p className="font-medium text-card-foreground">Address</p>
                       <p className="text-sm text-muted-foreground">
-                        123 Industrial Estate<br />
-                        Mumbai, Maharashtra 400001<br />
-                        India
+                        40/42, Nagdevi Street, Next to Ram Mandir<br />
+                        Masjid Bunder West, Mumbai<br />
+                        Maharashtra 400003, India
                       </p>
                     </div>
                   </div>
